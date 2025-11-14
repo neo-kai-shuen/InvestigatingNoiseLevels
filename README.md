@@ -70,12 +70,11 @@ Noise measurements were collected using a mobile noise-meter app, with all proce
 
 
 #### Data visualisations
-<img width="670" height="442" alt="image" src="https://github.com/user-attachments/assets/bcf4593c-3ea0-4625-869e-dfd136bdab72" />
+<img width="763" height="520" alt="image" src="https://github.com/user-attachments/assets/6823e682-fe1d-41fc-9d1d-64b6033ca03e" />
 
-<img width="673" height="414" alt="image" src="https://github.com/user-attachments/assets/3d72024f-fee0-48c6-baa3-8ae9bdf287f0" />
+<img width="1048" height="436" alt="image" src="https://github.com/user-attachments/assets/96491a8a-93a9-42bc-a74c-6581ee8482d9" />
 
-<img width="699" height="428" alt="image" src="https://github.com/user-attachments/assets/a4976313-1a23-4ea9-bf15-61a1e4d986ce" />
-
+<img width="1018" height="442" alt="image" src="https://github.com/user-attachments/assets/396652d9-dd46-4ebc-835b-c88e229f82d7" />
 
 
 
