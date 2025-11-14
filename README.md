@@ -11,15 +11,21 @@ This project aims to address three key questions:
 2. How does expected noise differ between morning and afternoon across locations?
 3. Does expected noise change depending on the day of the week (beginning, middle, end)?
 
+To answer these questions, the study measures noise across multiple campus locations using both objective (decibel readings) and subjective (0–10 ratings) methods, combined into a normalized composite score. A full factorial ANOVA is used to analyze the effects of location, time of day, and day of the week, along with diagnostic checks and Tukey-adjusted comparisons to identify differences between groups.
 
 #### Data source
 Noise data were collected using two measurement methods across campus study locations. Objective noise levels were recorded using a mobile app that captured average decibel readings. Subjective noise levels were obtained from observers who rated the environment on a 0–10 scale. Both measures were normalized to a common scale and combined into a single composite score, calculated by averaging the normalized subjective and objective scores with equal weighting (0.5 each). This composite score serves as the response variable for analysis.
 
 #### Approach
-To answer these questions, the study measures noise across multiple campus locations using both objective (decibel readings) and subjective (0–10 ratings) methods, combined into a normalized composite score. A full factorial ANOVA is used to analyze the effects of location, time of day, and day of the week, along with diagnostic checks and Tukey-adjusted comparisons to identify differences between groups.
+The study uses a full factorial experimental design to evaluate how noise levels vary by location (3 levels), day of the week (3 levels), and time of day (2 levels). Data were collected across 4 observers with 2 replicates, resulting in a total of 144 observations. The order in which locations were visited was randomized to reduce ordering bias, and observers were treated as blocks to control for personal differences and device variability.
 
+A full factorial ANOVA was then used to assess main effects and interactions among the factors. Model validity was checked through residual diagnostics, including normality and homoscedasticity assessments. Tukey-adjusted pairwise comparisons were conducted to identify specific group differences. This design provided strong power to detect moderate to large effects and supported robust hypothesis testing to answer the study’s research questions.
 
 #### Key results
+
+
+
+
 
 
 #### Technical stack
