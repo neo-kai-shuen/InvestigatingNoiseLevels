@@ -54,13 +54,22 @@ Tukey-adjusted pairwise comparisons further highlighted:
 #### Recommendations
 The Common Room is the best study location on campus—consistently the quietest regardless of time of day or day of the week. The Student Union is the least suitable due to consistently high noise and distraction levels.
 
+Based on the analysis, students seeking an effective study environment should prioritize the Common Room, which consistently offers the lowest noise and distraction levels. Studying in the morning (AM) is generally recommended across all locations, as it is quieter than the afternoon. The Common Room remains a reliable choice throughout the day, while the Student Union should be avoided for focused study due to its consistently high noise levels.
+
+To improve future research, larger samples, additional time slots, and more consistent measurement tools (e.g., standardized decibel meters) are recommended. Incorporating qualitative feedback and accounting for external events may also help refine understanding of what influences study comfort on campus.
+
 
 #### Technical stack
 
 
+
+
 #### Data visualisations
+<img width="670" height="442" alt="image" src="https://github.com/user-attachments/assets/bcf4593c-3ea0-4625-869e-dfd136bdab72" />
 
+<img width="673" height="414" alt="image" src="https://github.com/user-attachments/assets/3d72024f-fee0-48c6-baa3-8ae9bdf287f0" />
 
+<img width="699" height="428" alt="image" src="https://github.com/user-attachments/assets/a4976313-1a23-4ea9-bf15-61a1e4d986ce" />
 
 
 
