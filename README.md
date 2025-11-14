@@ -21,7 +21,21 @@ The study uses a full factorial experimental design to evaluate how noise levels
 
 A full factorial ANOVA was then used to assess main effects and interactions among the factors. Model validity was checked through residual diagnostics, including normality and homoscedasticity assessments. Tukey-adjusted pairwise comparisons were conducted to identify specific group differences. This design provided strong power to detect moderate to large effects and supported robust hypothesis testing to answer the study’s research questions.
 
+
+#### Statistical Analysis
+To evaluate how noise and distraction levels vary across locations, days, and times, a mixed-effects model was fitted using the composite score as the response variable. The model included fixed effects for Location (3 levels), Day of Week (3 levels), and Time of Day (2 levels), along with all two-way and three-way interactions. Observers (4 levels) were included as a random effect to account for individual differences in rating sensitivity and device variation. Each condition was measured with two replications.
+
+The statistical model followed a full factorial structure, enabling estimation of main effects and interactions while treating observers as random blocks. Constraints were imposed to ensure parameter identifiability, with baseline levels set for each factor.
+
+Model assumptions were assessed through diagnostic checks:
+- Normality of residuals was confirmed through Q–Q plots.
+- Homoscedasticity was evaluated using residual-versus-fitted and residual boxplots, showing no major violations.
+- Additivity was examined using interaction plots and Tukey’s Test for Nonadditivity, which indicated that interaction effects were significant and necessary in the model.
+
+This analysis framework provided a robust basis for identifying the conditions under which students experience higher or lower noise levels.
+
 #### Key results
+
 
 
 
@@ -40,21 +54,5 @@ A full factorial ANOVA was then used to assess main effects and interactions amo
 
 
 
-
-
-#### Tasks
-1. Design a Full Factorial experiment
-2. Fit an ANOVA model
-3. Create interaction plots
-4. Perform formal tests with Tukey’s test for additivity
-5. Check model assumptions with model diagnostics
-6. Compute Tukey-adjusted confidence intervals
-7. Make recommendations based on statistical analysis
-
-#### References
-- To view code: [Stat571B_Code.R](https://github.com/kai-shuen-neo/doe-noise/blob/main/Stat571B_Code.R) 
-- To view report: [Stat571B_Group2_Report.pdf](https://github.com/kai-shuen-neo/doe-noise/blob/main/Stat571B_Group2_Report.pdf)
-- To view appendix: [STAT571B_Group2_Appendix.pdf](https://github.com/kai-shuen-neo/doe-noise/blob/main/STAT571B_Group2_Appendix.pdf)
-- To view slides: [Stat571B_Group2_Slides.pdf](https://github.com/kai-shuen-neo/doe-noise/blob/main/Stat571B_Group2_Slides.pdf) 
 
 
