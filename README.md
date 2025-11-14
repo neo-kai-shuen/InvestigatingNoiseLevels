@@ -60,8 +60,13 @@ To improve future research, larger samples, additional time slots, and more cons
 
 
 #### Technical stack
+This project was coded entirely in R, using a combination of statistical and data-wrangling packages. The analysis included mixed-effects modeling, ANOVA, interaction testing, and visualization. Key R tools used include:
+- Base R for data manipulation and core statistical functions
+- lmerTest, ggplot2, emmeans for ANOVA, fitting mixed-effects models and model diagnostics
+- ggplot2 for visualization and interaction plots
+- dplyr and tidyr for data cleaning and preparation
 
-
+Noise measurements were collected using a mobile noise-meter app, with all processing and analysis performed within the R environment.
 
 
 #### Data visualisations
