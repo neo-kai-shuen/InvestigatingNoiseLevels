@@ -1,6 +1,6 @@
 # Investigating Noise Levels in Campus Study Locations
 
-## STAT571B
+## University of Arizona - STAT571B Design of Experiments
 
 #### Objectives
 Noise levels in different study locations affect student experiences. In relation to study locations on the University of Arizona campus, an experiment is conducted to address the following research questions:
