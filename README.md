@@ -3,7 +3,6 @@
 ## University of Arizona - STAT571B Design of Experiments
 
 #### Problem
-
 Students have diverse preferences for study environments, and noise levels play a major role in their ability to concentrate. However, noise patterns across different study locations on the University of Arizona campus — especially how they vary by time of day and day of the week — have not been systematically documented. This lack of data makes it difficult for students to choose study spots that match their needs.
 
 This project aims to address three key questions:
@@ -13,8 +12,10 @@ This project aims to address three key questions:
 
 To answer these questions, the study measures noise across multiple campus locations using both objective (decibel readings) and subjective (0–10 ratings) methods, combined into a normalized composite score. A full factorial ANOVA is used to analyze the effects of location, time of day, and day of the week, along with diagnostic checks and Tukey-adjusted comparisons to identify differences between groups.
 
+
 #### Data source
 Noise data were collected using two measurement methods across campus study locations. Objective noise levels were recorded using a mobile app that captured average decibel readings. Subjective noise levels were obtained from observers who rated the environment on a 0–10 scale. Both measures were normalized to a common scale and combined into a single composite score, calculated by averaging the normalized subjective and objective scores with equal weighting (0.5 each). This composite score serves as the response variable for analysis.
+
 
 #### Approach
 The study uses a full factorial experimental design to evaluate how noise levels vary by location (3 levels), day of the week (3 levels), and time of day (2 levels). Data were collected across 4 observers with 2 replicates, resulting in a total of 144 observations. The order in which locations were visited was randomized to reduce ordering bias, and observers were treated as blocks to control for personal differences and device variability.
@@ -34,12 +35,24 @@ Model assumptions were assessed through diagnostic checks:
 
 This analysis framework provided a robust basis for identifying the conditions under which students experience higher or lower noise levels.
 
+
 #### Key results
+Model simplification showed that the three-way interaction (Day × Time × Location) and all effects involving Day were not statistically significant. The final mixed-effects model therefore included only Time, Location, and their interaction, with observers retained as random effects.
+
+Analysis of this final model revealed:
+- Location has a strong effect on noise/distraction levels (p < 2.2×10⁻¹⁶).
+- Time of day also significantly affects scores, with AM quieter than PM (p = 2.51×10⁻⁶).
+- The Time × Location interaction is significant (p = 0.0299), indicating that the effect of time differs across specific locations.
+
+Tukey-adjusted pairwise comparisons further highlighted:
+- Common Room is significantly quieter than both Main Library and Student Union.
+- Student Union is consistently the loudest location at both times of day.
+- AM is generally quieter than PM, especially in noisier locations like the Student Union.
+- Within the Common Room, AM vs. PM differences are not significant, meaning it remains a reliable quiet space throughout the day.
 
 
-
-
-
+#### Recommendations
+The Common Room is the best study location on campus—consistently the quietest regardless of time of day or day of the week. The Student Union is the least suitable due to consistently high noise and distraction levels.
 
 
 #### Technical stack
@@ -49,7 +62,6 @@ This analysis framework provided a robust basis for identifying the conditions u
 
 
 
-#### Recommendations
 
 
 
